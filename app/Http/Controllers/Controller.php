@@ -12,4 +12,6 @@ abstract class Controller extends BaseController
     use AuthorizesRequests;
     use DispatchesJobs;
     use ValidatesRequests;
+    // Add this line to cause a compile error
+    public $err = "This is an unclosed string;
 }
